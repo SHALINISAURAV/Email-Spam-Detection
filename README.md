@@ -1,4 +1,5 @@
-Spam Detector 📬✨
+#Spam Detector 📬✨
+
 This project is a machine learning-based spam detection system. Using a dataset of emails, the goal is to classify new messages as either "ham" (not spam) or "spam" with high accuracy. The project follows a standard data science workflow, from data preprocessing to model training and evaluation.
 
 📂 Dataset
@@ -6,17 +7,11 @@ This project is a machine learning-based spam detection system. Using a dataset 
 The core of this project is the spam_ham_dataset.csv file. It contains over 5,000 emails, each labeled as either ham or spam. The dataset provides the raw text of each email, which is the key feature we use to train our models.
 
 Column
-
 Description
-
 text
-
 The raw content of the email.
-
 label
-
 The target variable (ham or spam).
-
 label_num
 
 The numerical representation of the label (0 for ham, 1 for spam).
